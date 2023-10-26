@@ -1,0 +1,4 @@
+env:
+  PYTHON_VERSION: 3.9
+buildCommand: chmod u+x deploy.sh &&  pip install -r requirements.txt
+startCommand: python jj.py
